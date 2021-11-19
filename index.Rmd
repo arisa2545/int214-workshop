@@ -1,6 +1,6 @@
 ---
 title: "INT214: Workshop"
-author: "by: _____________"
+author: "by: Arisa"
 output: html_document
 ---
 
@@ -12,7 +12,7 @@ When you click the **Knit** button a document will be generated that includes bo
 ### 1.) Import Library and Preparing Dataset
 #### Import Lib
 ```{r packages, message=FALSE, warning=FALSE}
-library(readr)
+# library(readr)
 library(dplyr)
 library(ggplot2)
 library(rmarkdown)
@@ -20,7 +20,7 @@ library(rmarkdown)
 
 #### Import Dataset
 ```{r dataset, warning=FALSE}
-int214 <- read_csv("db_int214.csv")
+int214 <- read.csv("db_int214.csv")
 ```
 
 ### 2.) Explore Data
